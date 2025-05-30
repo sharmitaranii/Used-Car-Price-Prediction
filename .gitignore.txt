@@ -1,0 +1,14 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore dataset and model files if you choose
+*.csv
+*.pkl
+
+# Ignore system files
+.DS_Store
+Thumbs.db
