@@ -4,8 +4,8 @@ import numpy as np
 import joblib
 
 # Load model and column list
-model = joblib.load('rf_model_log.pkl')
-columns = joblib.load('model_columns.pkl')  # Make sure file is renamed correctly
+model = joblib.load('app/rf_model_log.pkl')
+columns = joblib.load('app/model_columns.pkl')
 
 # Page configuration
 st.set_page_config(page_title="Used Car Price Predictor", layout="centered")
